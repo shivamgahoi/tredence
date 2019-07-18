@@ -1,0 +1,22 @@
+{
+    "name": "SqlTableDataset",
+    "properties": {
+        "type": "AzureSqlTable",
+        "linkedServiceName": {
+                "referenceName": "AzureSqlDbLinkedService",
+                "type": "LinkedServiceReference"
+        },
+        "typeProperties":
+        {
+	          "folderPath": "@{dataset().path}" ,
+            "tableName": "dbo.emp"
+	    
+        },
+	  "structure":
+	  [
+    		{ "name": "employeeName", "type": "String"},
+    		{ "name": "employeeHometown", "type": "String"}
+	  ]
+
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "BlobDataset",
+    "properties": {
+        "type": "AzureBlob",
+      "typeProperties": {
+        "folderPath": "@{dataset().path}",
+        "format": {
+          "type": "TextFormat"
+        }
+
+      },
+      "linkedServiceName": {
+        "referenceName": "AzureStorageLinkedService",
+        "type": "LinkedServiceReference"
+      },
+        "parameters": {
+            "path": {
+                "type": "String"
+            }
+        }
+    }
+}

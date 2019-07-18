@@ -1,0 +1,15 @@
+{
+    "name": "AzureStorageLinkedService",
+    "properties": {
+        "type": "AzureStorage",
+        "typeProperties": {
+          "connectionString": {
+            "value": "DefaultEndpointsProtocol=https;AccountName=shivamgahoi;AccountKey=/ghe96LQo2uE+v9WFrrWgxtqJOqrSwVp2joL0v91jwIrA5XKR6ez0ET157ZrimXwMRb0eT3/fbpoYLI00EFAUA==;EndpointSuffix=core.windows.net",
+            "type": "SecureString"
+          }
+        }
+    }
+}
+
+
+

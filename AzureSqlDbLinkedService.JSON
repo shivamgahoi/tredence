@@ -1,0 +1,15 @@
+{
+  "name": "AzureSqlDbLinkedService",
+  "properties": {
+    "type": "AzureSqlDatabase",
+    "typeProperties": {
+      "connectionString": {
+        "type": "SecureString",
+        "value": "Server=tcp:shivamsqldbserver.database.windows.net,1433;Initial Catalog=shivamdb;Persist Security Info=False;User ID=shivamgahoi;Password=monikagupta@1996;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      }
+    }
+  }
+}
+
+//Server=tcp:shivamsqldbserver.database.windows.net,1433;Database=shivamdb;User ID=shivamgahoi@shivamsqldbserver;Password=monikagupta@1996;Trusted_Connection=False;Encrypt=True;Connection Timeout=30
+//Server=tcp:shivamsqldbserver.database.windows.net,1433;Initial Catalog=shivamdb;Persist Security Info=False;User ID=shivamgahoi;Password=monikagupta@1996;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
